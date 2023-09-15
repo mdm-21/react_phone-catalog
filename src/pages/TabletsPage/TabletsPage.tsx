@@ -3,7 +3,7 @@ import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { ItemsOnPageSelect } from '../../components/ItemsOnPageSelect';
 import { Loader } from '../../components/Loader';
 import { LoadMore } from '../../components/LoadMore';
-// import { PagePath } from '../../components/PagePath';
+import { PagePath } from '../../components/PagePath';
 import { PaginationPages } from '../../components/PaginationPages';
 import { ProductsList } from '../../components/ProductsList';
 import { SortBySelect } from '../../components/SortBySelect';
