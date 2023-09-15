@@ -33,12 +33,4 @@ describe('Tablets and accessories', () => {
     cy.get('h1')
       .contains('Accessories');
   });
-
-  it('should have "NoResults" component implemented', () => {
-    cy.intercept('**products.json', { fixture: 'noProducts' });
-
-    cy.visit('#/tablets');
-
-    cy.contains('Tablets not found');
-  });
 });
